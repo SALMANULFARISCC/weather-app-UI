@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    letter-spacing:1px;
+  }
+
+  ::placeholder 
+  {
+      color:979797 ;
+      font-family: Roboto;
+      font-size: 25px;
+      
+  }
+
+
+
+  .flex-parent {
+    display: flex;
+  }
+  
+  .jc-center {
+    justify-content: center;
+  }
+  
+  button.margin-right {
+    margin-right: 20px;
+  }
+  .contentWrapper {
+    height: 100vh;
+    background-color: 171717;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .center {
+    width:100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  /* Title section  */
+.titleSection {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+  }
+  .mainTitle {
+    font-size: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    color: 979797;
+    font-weight: bold;
+  }
+
+
+
+.glass_morphisam{
+background: rgba( 227, 227, 227, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+/* Glassmorphism card effect */
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+/* Rectangle 4 */
+.hook{
+/* Rectangle 2 */
+padding-left: 5%;
+padding-inline-start: 2%;
+width: 80%;
+height: 50px;
+
+background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(42px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;
+
+}
+.search{
+width: 50px;
+height: 40px;
+
+
+background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(42px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;
+}
+.blur {
+    bottom: 25px;
+    right: 162px;
+    width: 200px;
+    height: 200px;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+
+  /*  view glass moprhp */
+.morph{
+    width: 40%;
+    height: 75%;
+border-radius: 15px;
+padding: 32px;
+
+background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(42px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;
+}
+/*location */
+.location{
+    width: 25%;
+    height: 6%;
+border-radius: 15px;
+padding: px;
+
+background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(42px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 4px;
+}
+.location-text{
+    color: 979797;
+    font-family: Roboto;
+    font-style: bold;
+    position: absolute;
+left: 12%;
+top: 7%;
+font-weight: 100%;
+font-size: 18;
+}
+/* image */
+.image
+{
+    height: 40%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+
+}
+.degree{
+    font-size: 50px;
+    color: 979797;
+    font-family: Roboto;
+    width: 300px;
+    position: absolute;
+    height: 100px;
+    top: 85%;
+    left: 76%;
+
+}
+
